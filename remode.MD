@@ -26,3 +26,12 @@ app:
     tests      单元测试
     views      业务代码
 ```
+# 
+```text
+1. 配置模板的路径 setting.py---TEMPLATES_DIRS={
+    os.path.join(BASE_DIR, 'templates'),
+}
+2. 配置静态路径setting.py最后--STATICFILES_DIRS={
+    os.path.join(BASE_DIR, 'static'),
+}
+```

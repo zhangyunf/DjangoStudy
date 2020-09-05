@@ -19,6 +19,5 @@ from cmdb import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-
-    path(r'h.html', views.home),
+    path('login/', views.login),
 ]
